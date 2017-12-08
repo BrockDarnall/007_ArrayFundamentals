@@ -5,10 +5,12 @@ public class main {
 public static void main(String[] args) {
 		
 		arrayFun learnArrays = new arrayFun();
-		
-		learnArrays.showInstructions();
-		learnArrays.intArrayExample();
 
+		Matrix my2D = new Matrix();
+		
+		my2D.test2D();
+		
+		my2D.Game();
 	}
 
 	
